@@ -3,7 +3,7 @@
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
  
   const firebaseConfig = {
-   
+  
   };
 
 
@@ -44,9 +44,10 @@
   firebase.auth().onAuthStateChanged((user)=>{
     if(user){
       var email = user.email;
-      alert("Active user "+email);
+      //alert("Active user "+email);
+      window.location.href = "home.html";
 
     }else{
-      alert("No Active user Found")
+      //alert("No Active user Found")
     }
   })

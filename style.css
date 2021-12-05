@@ -1,0 +1,33 @@
+body{
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+input, button {
+   
+    display: block;
+  background: #fff;
+ 
+  }
+
+.formContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+
+  }
+
+  .formContainer button {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0.1em;
+  }
+
+  .formContainer input{
+      height: 10em;
+      width: 10em;
+  }
+
+
